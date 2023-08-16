@@ -1,0 +1,63 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  height: auto;
+  background: url("../../assets/bg4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inquiry_form {
+  width: 50%;
+  padding: 20px;
+  height: auto;
+  /* background: rgba(51, 165, 231, 0.3) */
+
+}
+.inquiry_form input,textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .inquiry_form input:focus {
+    outline-color: rgb(173, 173, 233);
+  }
+
+.header {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.header h3 {
+  color:#000;
+  font-weight: 700;
+}
+.myform {
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.btn button {
+  width: 130px !important;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  background-color: #d2d8d6;
+  background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+  color: black;
+}

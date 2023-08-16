@@ -1,0 +1,23 @@
+.sticky {
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 999999;
+    top: 0;
+}
+.outlet {
+    height: 82vh;
+    margin-top: 80px;
+}
+
+.footer {
+    /* height:10vh; */
+}
+
+/* responsive css */
+@media (min-width: 0px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 520px) {
+    .outlet {
+        height: 79.1vh;
+    }
+}

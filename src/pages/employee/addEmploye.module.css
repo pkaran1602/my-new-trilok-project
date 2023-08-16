@@ -1,0 +1,40 @@
+.modal {
+    margin-top: 80px;
+}
+.main {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    align-items: center;
+    height: auto;
+    padding: 40px 25px;
+    border-radius: 20px;
+}
+
+.my_form input,
+select {
+    width: 100%;
+    padding: 5px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.my_form input,
+select:focus {
+    outline-color: rgb(173, 173, 233);
+}
+
+.btn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+

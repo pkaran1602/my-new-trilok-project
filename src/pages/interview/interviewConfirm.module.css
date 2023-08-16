@@ -1,0 +1,68 @@
+.interview_main {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: url("../../assets/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .interview {
+    width: 90%;
+    padding: 1% 5%;
+    height: auto;
+    /* background: rgba(51, 165, 231, 0.3) */
+  }
+  .interview input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .interview input:focus {
+    outline-color: rgb(173, 173, 233);
+  }
+  
+  .interview select {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  .profile_img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .education {
+    margin: 5px 0;
+  }
+  .current_company {
+    margin: 5px 0;
+  }
+  .submit_btn {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    width: 130px !important;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: #d2d8d6;
+    background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+    color: black;
+  }
+  

@@ -1,0 +1,62 @@
+.main {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url("../../assets/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.upload_main {
+    width: 60%;
+    padding: 20px;
+    height: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.upload_main input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.upload_main :focus {
+    outline-color: rgb(173, 173, 233);
+}
+
+.label1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.my_btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.my_btn button {
+    width: 130px !important;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: #3d8be4;
+    color: black;
+}

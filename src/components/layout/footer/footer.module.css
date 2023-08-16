@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding-right: 50px;
+    background-color: rgb(13, 163, 209);
+}
+
+.footer_content {
+    margin-left: auto;
+}

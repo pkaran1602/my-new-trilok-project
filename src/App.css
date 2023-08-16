@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.modal-header {
+  background: beige;
+}
+
+.modal-body {
+  background: beige;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.active {
+  color: #4976f1 !important;
+  font-weight: 600;
+}
+
+
+.offcanvas {
+  margin-top: 46px;
+  width: 250px !important;
+  height: 350px;
+}
+.btn-primary
+{
+  background: none !important;
+  border: none !important;
+}

@@ -1,0 +1,8 @@
+.main{
+    height: 80vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+

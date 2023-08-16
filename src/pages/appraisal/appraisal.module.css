@@ -1,0 +1,48 @@
+.appraisal_main
+{
+  font-weight: 500;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: url("../../assets/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.aprs_form
+{
+    width: 50%;
+    padding: 20px;
+    height: auto;
+    /* background: rgba(51, 165, 231, 0.3) */
+
+}
+.aprs_form input, select {
+    width: 100%;
+    padding: 5px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .aprs_form input:focus {
+    outline-color: rgb(173, 173, 233);
+  }
+  .submit_btn {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    width: 130px !important;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: #d2d8d6;
+    background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+    color: black;
+  }

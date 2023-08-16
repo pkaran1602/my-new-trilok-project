@@ -1,0 +1,13 @@
+.my_select
+{
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+    padding:9px !important;
+    height: 38px !important;
+    margin: 5px 0 !important;
+    width: 100% !important;
+    border: none !important;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px !important;
+
+}
